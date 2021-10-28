@@ -5,7 +5,6 @@
 }
 
 body {
-    position: absolute;
     left: 0px;
     top: 17px;
     background: #16161A;
@@ -13,6 +12,11 @@ body {
 
 button {
     cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
 }
 
 header {
@@ -29,7 +33,7 @@ header img {
     margin-top: 27px;
 }
 
-.buttom-regis {
+.button-regis {
     padding: 10px;
     border-radius: 4px;
     background: #7F5AF0;
@@ -38,7 +42,7 @@ header img {
     font-weight: bold;
 }
 
-.buttom-regis2 {
+.button-regis2 {
     margin-top: 50px;
     padding: 20px;
     border-radius: 4px;
@@ -50,7 +54,7 @@ header img {
 }
 
 
-.buttom-log {
+.button-log {
     margin-left: 10px;
     padding: 10px 30px;
     border-radius: 4px;
@@ -78,4 +82,6 @@ header img {
 .text-land p {
     font-size: 24px;
     color: #94A1B2;
+
+    margin-top: 40px;
 }

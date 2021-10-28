@@ -27,3 +27,11 @@ input{
     flex-wrap: wrap;
 }
 
+.input-box {
+    margin-top: 20px;
+}
+
+.login-box .login-button {
+    color: #fff;
+    margin: 30px 0;
+}
