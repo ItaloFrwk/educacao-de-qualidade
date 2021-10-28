@@ -9,6 +9,7 @@ Var
 nome,senha,escolaridade,nomeLogin,senhaLogin:caractere
 desafio:caractere
 
+// TESTE DE ALTERAÇÃO GITHUB
 
 
 Inicio
