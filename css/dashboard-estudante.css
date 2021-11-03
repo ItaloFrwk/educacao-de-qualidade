@@ -1,0 +1,15 @@
+.painel{
+    background-color: #2CB67D;
+    width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;    
+}
+
+.charPerson img{
+    max-width: 70px;
+    max-height: 70px;
+    margin-top: 10px;
+}
