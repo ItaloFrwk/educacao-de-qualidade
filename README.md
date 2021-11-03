@@ -19,3 +19,21 @@ desafios propostos pela plataforma. Basta que esteja matriculado em alguma insti
 ## PÁGINA DE CADASTRO
 
 <img src="https://i.imgur.com/yZP4CQF.png" alt="Imagem da página de cadastro">
+
+## PÁGINA DO PROFESSOR (PERFIL E PÁGINA GERAL)
+
+<img src="https://i.imgur.com/b7xMPkF.png" alt="Imagem da página do professor">
+<hr>
+<img src="https://i.imgur.com/uFVk2Ki.png" alt="Imagem da página geral do professor">
+
+## PÁGINA DO ALUNO
+
+<img src="https://i.imgur.com/j7G0iJo.png" alt="Imagem da página do aluno">
+
+## PÁGINA DO DESAFIO
+
+<img src="https://i.imgur.com/1w5cB9K.png" alt="Imagem da página de desafio">
+
+## PÁGINA DA FINALIZAÇÃO DO DESAFIO
+
+<img src="https://i.imgur.com/oL81xaJ.png" alt="Imagem da página de finalização do desafio">
