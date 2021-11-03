@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\Apps\Dev\Back-End\C#\VisuAlg\VisuAlg\bin\Debug\net5.0\VisuAlg.exe
+C:\Users\User\Desktop\Apps\Dev\Back-End\C#\VisuAlg\VisuAlg\bin\Debug\net5.0\VisuAlg.deps.json
+C:\Users\User\Desktop\Apps\Dev\Back-End\C#\VisuAlg\VisuAlg\bin\Debug\net5.0\VisuAlg.runtimeconfig.json
+C:\Users\User\Desktop\Apps\Dev\Back-End\C#\VisuAlg\VisuAlg\bin\Debug\net5.0\VisuAlg.runtimeconfig.dev.json
+C:\Users\User\Desktop\Apps\Dev\Back-End\C#\VisuAlg\VisuAlg\bin\Debug\net5.0\VisuAlg.dll
+C:\Users\User\Desktop\Apps\Dev\Back-End\C#\VisuAlg\VisuAlg\bin\Debug\net5.0\ref\VisuAlg.dll
+C:\Users\User\Desktop\Apps\Dev\Back-End\C#\VisuAlg\VisuAlg\bin\Debug\net5.0\VisuAlg.pdb
+C:\Users\User\Desktop\Apps\Dev\Back-End\C#\VisuAlg\VisuAlg\obj\Debug\net5.0\VisuAlg.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Apps\Dev\Back-End\C#\VisuAlg\VisuAlg\obj\Debug\net5.0\VisuAlg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Apps\Dev\Back-End\C#\VisuAlg\VisuAlg\obj\Debug\net5.0\VisuAlg.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Apps\Dev\Back-End\C#\VisuAlg\VisuAlg\obj\Debug\net5.0\VisuAlg.AssemblyInfo.cs
+C:\Users\User\Desktop\Apps\Dev\Back-End\C#\VisuAlg\VisuAlg\obj\Debug\net5.0\VisuAlg.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Apps\Dev\Back-End\C#\VisuAlg\VisuAlg\obj\Debug\net5.0\VisuAlg.dll
+C:\Users\User\Desktop\Apps\Dev\Back-End\C#\VisuAlg\VisuAlg\obj\Debug\net5.0\ref\VisuAlg.dll
+C:\Users\User\Desktop\Apps\Dev\Back-End\C#\VisuAlg\VisuAlg\obj\Debug\net5.0\VisuAlg.pdb
+C:\Users\User\Desktop\Apps\Dev\Back-End\C#\VisuAlg\VisuAlg\obj\Debug\net5.0\VisuAlg.genruntimeconfig.cache
