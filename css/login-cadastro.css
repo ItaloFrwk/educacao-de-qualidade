@@ -1,28 +1,26 @@
 body {
-    background: url('/img/background.png');
+    background: url('/img/background.png') no-repeat;
+    height: 100%;
 }
 
 .section-login {
+    width: 100vw;
+    height: 100vh;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
 }
 
-input{
-    background-color: transparent;    
-    border: none;
-    border-bottom: 2px solid white;
-}
-
 .login-box {
-    width: 500px;
+    width: 400px;
     height: 500px;
     background: rgba(22, 22, 26, 0.87);
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 20px;
 
-    padding: 20px;
+    padding: 20px 25px;
 }
 
 .login-box h1 {
@@ -40,8 +38,49 @@ input{
     font-weight: 400;
 }
 
+.input-box label {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.input-box input {
+    background-color: transparent;    
+    border: none;
+    border-bottom: 2px solid white;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+
+    padding: 5px;
+}
+
+.input-box input:focus {
+    outline: none;
+}
+
 .button-box {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
+
+.button-box a {
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.button-regis2 {
+    padding: 8px;
+    border-radius: 4px;
+    background: #7F5AF0;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    width: 100%;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px;
+}
+
 
