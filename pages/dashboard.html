@@ -9,6 +9,7 @@
     <title>TOTE - Dashboard</title>
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
     <link rel="stylesheet" type="text/css" href="../css/dashboard-estudante.css">
+    <link rel="stylesheet" href="../css/modalStyle.css">
 </head>
 
 <body>
@@ -83,9 +84,91 @@
     </div>
     <!-- ATIVIDADES -->
 
+    <!--MODAL-->
+    <div onclick="abrir()" class="btn">clique aqui</div>
+
+
+    <div class="modal">
+        <div class="modal-container">
+            <div class="profile-about">
+                <div class="avatar">
+                    <h3>Golden <br> Stormtrooper</h3>
+                    <hr>
+                    <img src="img/GoldStorm 2.png" alt="">
+
+                    <p>XP 100/100</p>
+
+                    <div id="exp-bar">
+                        <span class="gotten"></span>
+                        <span class="gotten"></span>
+                        <span class="gotten"></span>
+                        <span class="gotten"></span>
+                        <span class="gotten"></span>
+                        <span class="gotten"></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+
+                </div>
+
+                <div class="about">                                                                  
+                        <div class="perfil">
+                            <h3>Perfil</h3>
+                            <hr>  
+                            <p>Aluno:Felipe</p>
+                            <p>Idade: 17 anos</p>
+                            <p>Escolaridade: 2° Ano</p>
+                            <p>Ensino Médio</p>
+                            <p>Level 100</p>
+                        </div>
+                        
+                        <div class="sobre">
+                            <h3>Sobre</h3>
+                            <hr>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi commodi rerum?</p>                               
+                        </div>
+                </div>
+
+            </div> 
+
+            <div class="medals">
+                <div class="container-medals">
+                    <h3>Medalhas</h3>
+                    <ul class="medalhas">
+                        <li>
+                            <img src="img/2 color ribbon.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/Blue ribbon.png" alt="">
+                        </li>
+                        <li>
+                            <img src="img/Violet ribbon.png" alt=""> 
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <ul class="brasao">
+                        <li>
+                            <img src="img/Empty.png" alt="">
+                        </li>
+                    </ul>                                              
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <a onclick="fechar()" class="fechar" href=""><img src="/img/Buttom Close.png" alt=""></a>
+        </div>
+    </div>
+
+
 
 </body>
 
 <script src="../js/carousel.js"></script>
+<script src="../js/modal.js"></script>
 
 </html>
