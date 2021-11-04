@@ -130,7 +130,7 @@ header{
   margin: 8px auto;
   border: 3px solid var(--purple);
   outline: 0;
-  transition: border .5s;
+  transition: all .2s;
   font-size: 14px;
   font-weight: 500;
   justify-content: center;
@@ -142,4 +142,50 @@ header{
 
 button.button-option:hover {
   border-color: var(--green);
+  background-color: var(--green) ;
+}
+
+div.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding: 12px 0;
+ }
+
+.button-home{
+  display: flex;
+  width: 100px;
+  height: 30px;
+  background: var(--red);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-home img{
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.button-send{
+  display: flex;
+  width: 100px;
+  height: 30px;
+  color: var(--text-light);
+  background: var(--green);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .button-option {
+    width: 100%;
+    max-width: 400px;
+    min-width: 200px;
+    height: 60px;
+  }
 }
