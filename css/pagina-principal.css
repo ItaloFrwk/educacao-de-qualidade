@@ -36,6 +36,10 @@ header nav {
     width: 30%;
 }
 
+.landing-image img {
+    margin-left: 200px;
+}
+
 .landing-social {
     margin-top: 50px;
 }
