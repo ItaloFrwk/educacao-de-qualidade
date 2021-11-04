@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
+    background: url('/img/background.png') no-repeat;
+=======
     background: url('../img/background.png') no-repeat;
+>>>>>>> 188eab90ce8bce8f2896b6a85569cedc7798c842
     height: 100%;
 }
 
