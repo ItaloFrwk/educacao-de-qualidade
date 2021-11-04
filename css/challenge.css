@@ -1,0 +1,145 @@
+body {
+  color: var(--text-light);
+}
+
+header{
+  display: flex;
+  flex: 1;
+  max-height: 80px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
+.hamburger-menu {
+  width: 28px;
+  height: 28px;
+}
+
+#user-card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#user-data{
+  margin-right: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  
+}
+#user-avatar{
+  background: var(--purple);
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#user-avatar img{
+  max-height: inherit;
+  max-width: inherit;
+}
+
+.user-name{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.user-email{
+  font-size: 14px;
+}
+
+#exp-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  margin-top: 8px;
+}
+
+#exp-bar span {
+  width: 14px;
+  height: 14px;
+  background: #548759;
+  border: 3px solid var(--background-dark);
+}
+
+#exp-bar span.gotten {
+  background: chartreuse;
+}
+
+#exp-bar span:first-of-type {
+  border-radius: 50% 0 0 50%;
+}
+
+#exp-bar span:last-of-type {
+  border-radius: 0 50% 50% 0;
+}
+
+#content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+#content > div {
+  margin: 8px 48px;
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#content .challenge-description p {
+  margin-top: 8px;
+}
+
+#content .challenge-info h3 {
+  font-weight: normal;
+  margin-top: 8px;
+}
+
+#content .box {
+  background: var(--dark-grey);
+  border-radius: 10px;
+}
+
+.options {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.button-option {
+  display: flex;
+  width: 400px;
+  background: var(--purple);
+  border-radius: 10px;
+  height: 40px;
+  margin: 8px auto;
+  border: 3px solid var(--purple);
+  outline: 0;
+  transition: border .5s;
+  font-size: 14px;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  text-align: center;
+  color: var(--text-dark);
+}
+
+button.button-option:hover {
+  border-color: var(--green);
+}
