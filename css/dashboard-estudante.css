@@ -31,7 +31,7 @@
 .flexbox {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     position: relative;
 }
 
@@ -264,6 +264,7 @@ h1 {
         max-width: 70px;
         margin-top: 0px;
         max-height: 70px;
+        margin-left: 50px;
     }
 
 
@@ -272,6 +273,7 @@ h1 {
         max-width: 70px;
         margin-top: 0px;
         max-height: 70px;
+        margin-left: 50px;
     }
 
     .flexbox {
