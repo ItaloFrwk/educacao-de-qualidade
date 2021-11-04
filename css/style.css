@@ -36,3 +36,19 @@ a {
     color: var(--text-light);
 }
 
+
+.xp-bar {
+    background-color: #fff;
+    width: 90%;
+    height: 10px;
+    border-radius: 10px;
+
+}
+
+.porcetagem {
+    border-radius: 10px;
+    background: #2CB67D;
+    height: 10px;
+    width: 98%;
+}
+
