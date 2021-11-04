@@ -28,7 +28,17 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    position: relative;
 }
+/* Mini Perfil */
+.miniPerfil{
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 110px;
+}
+
+
 
 /* Carousel */
 .visuallyhidden {
@@ -45,15 +55,14 @@ h1 {
 }
 
 .container {
-    overflow: hidden;
     padding: 20px;
-    margin-top: 4em;
+    margin-top: 150px;
 }
 
 .card-carousel {
     --card-width: 80%;
     --card-max-width: 280px;
-    --card-height: 350px;
+    --card-height: 400px;
     --carousel-min-width: 600px;
     z-index: 1;
     position: relative;
@@ -81,7 +90,7 @@ h1 {
     max-width: var(--card-max-width);
     text-align: center;
     padding: 1em;
-    min-width: 250px;
+    min-width: 300px;
     height: var(--card-height);
     position: absolute;
     margin: 0 auto;
@@ -158,19 +167,25 @@ h1 {
     margin-right: 50px;
     margin-top: 20px;
     border: 1px solid #2CB67D;
-    padding: 10px;
+    padding: 20px;
     border-radius: 20px;
-    width: 250px;
-
+    width: 350px;
+    margin-bottom: 10px;
 }
 
 #task{
     margin-top: 30px;
     color: #fff;
-    padding-right: 100px;
+    text-align: left;
+    margin-left: 10px;
 }
 
 #task li{
-    list-style:circle;
-    margin-left: 10px;
+    list-style:disc;
+    padding-left: 10px;
+    padding: 0;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #2CB67D;
 }
