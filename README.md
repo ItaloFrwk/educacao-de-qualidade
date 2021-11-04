@@ -20,11 +20,15 @@ desafios propostos pela plataforma. Basta que esteja matriculado em alguma insti
 
 <img src="https://i.imgur.com/yZP4CQF.png" alt="Imagem da página de cadastro">
 
-## PÁGINA DO PROFESSOR (PERFIL E PÁGINA GERAL)
+## PÁGINAS DO PROFESSOR (PERFIL / PÁGINA GERAL / CRIAR DESAFIO / ADICIONAR PARTICIPANTES)
 
 <img src="https://i.imgur.com/b7xMPkF.png" alt="Imagem da página do professor">
 <hr>
-<img src="https://i.imgur.com/uFVk2Ki.png" alt="Imagem da página geral do professor">
+<img src="https://i.imgur.com/cmhRLPk.png" alt="Imagem da página geral do professor">
+<hr>
+<img src="https://i.imgur.com/pWp4gd2.png" alt="Imagem da página de adicionar participantes">
+<hr>
+<img src="https://i.imgur.com/KNBmX6B.png" alt="Imagem da página de criação de desafios">
 
 ## PÁGINA DO ALUNO
 
