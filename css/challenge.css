@@ -181,6 +181,116 @@ div.footer {
   justify-content: center;
 }
 
+.blur{
+  height: 100vh;
+  width: 100vw;
+  background: #00000050;
+  position: absolute;
+  top:0;
+  right: 0;
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 450px;
+  background: var(--green);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 12px;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.card h1 {
+  font-size: 3rem;
+}
+
+.inside-card {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 3px solid #000;
+  background-color: var(--purple);
+  margin: 12px 20px;
+  padding: 12px; 
+}
+.heart-bar{
+  padding-bottom: 8px;
+  border-bottom: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+
+.heart-bar img{
+  max-width: 28px;
+  margin: 0 4px;
+}
+.avatar-card{
+  max-height: 150px;
+  margin: 8px auto;
+}
+.xplevel{
+  margin: 4px auto;
+}
+.challenge-result{
+  margin: 4px auto;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.content-card{
+  background-color: #fff;
+  color: var(--text-dark);
+  padding: 20px;
+  border-radius: 20px;
+}
+.content-card p {
+  text-align: center;
+  font-weight: bold;
+}
+.title-card{
+  justify-content: center;
+  align-items: center;
+  font-weight: 80px;
+   
+}
+
+.avatar-card{
+  align-items: center;
+  justify-content: center;
+}
+.continue-button{
+  display: flex;
+  width: 100px;
+  height: 30px;
+  color: var(--text-light);
+  background: var(--purple);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.return-menu{
+  font-size: 0.8rem;
+  text-decoration: underline;
+  margin-top: 8px;
+
+}
+
 @media (max-width: 600px) {
   .button-option {
     width: 100%;
