@@ -36,7 +36,49 @@
     position: absolute;
     top: 0;
     left: 110px;
+    color: #fff;
+    margin-top: 10px;
 }
+
+.nomePerfil{
+    font-size: 1rem;
+}
+
+.nomePerfil span{
+    font-size: 0.8rem;
+    list-style: circle;
+}
+
+.xp-bar{
+    background-color: #fff;
+    width: 90%;
+    height: 10px;
+    border-radius: 10px;
+   
+}
+
+.porcetagem{
+    border-radius: 10px;
+    background: #2CB67D;
+    height: 10px;
+    width: 98%;
+}
+
+.buttom-editarP button{
+    padding-inline: 30px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: none;
+    border-radius: 20px;
+    background-color: #7F5AF0;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+
+
 
 
 
