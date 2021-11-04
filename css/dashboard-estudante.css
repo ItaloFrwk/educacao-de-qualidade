@@ -24,6 +24,10 @@
     max-height: 70px;
 }
 
+.buttomE img{
+    visibility: hidden;
+}
+
 .flexbox {
     display: flex;
     justify-content: space-between;
