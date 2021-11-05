@@ -64,6 +64,11 @@
     width: 115%;
     padding: 30px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .modalStars {
