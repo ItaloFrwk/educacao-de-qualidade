@@ -14,11 +14,11 @@ desafios propostos pela plataforma. Basta que esteja matriculado em alguma insti
 
 ## PÁGINA DE LOGIN
 
-<img src="https://i.imgur.com/gktOyRw.png" alt="Imagem da página de login">
+<img src="https://i.imgur.com/AS4FwLR.jpg" alt="Imagem da página de login">
 
 ## PÁGINA DE CADASTRO
 
-<img src="https://i.imgur.com/yZP4CQF.png" alt="Imagem da página de cadastro">
+<img src="https://i.imgur.com/nyipG9H.jpeg" alt="Imagem da página de cadastro">
 
 ## PÁGINAS DO PROFESSOR (PERFIL / PÁGINA GERAL / CRIAR DESAFIO / ADICIONAR PARTICIPANTES)
 
