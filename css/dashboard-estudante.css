@@ -358,7 +358,6 @@ h1 {
         --card-max-width: 280px;
         --card-height: 400px;
         --carousel-min-width: 100vw;
-        z-index: 1;
         position: relative;
         margin-top: 20px;
         width: 100%;

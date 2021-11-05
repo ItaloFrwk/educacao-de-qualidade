@@ -1,0 +1,175 @@
+.modal {
+    width: 450px;
+    height: 600px;
+    background: #2CB67D;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    animation: animate;
+    animation-duration: 800ms;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+@keyframes animate {
+    from {
+        opacity: 1;
+    }
+
+    from {
+        opacity: 0;
+    }
+}
+
+.fechar img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 10px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.fechar img:hover {
+    width: 35px;
+    height: 35px;
+    transition: width 0.5s, height 0.5s;
+}
+
+.modal-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.profile-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 250px;
+    margin-top: 0px;
+    justify-content: space-between;
+
+}
+
+.containerVictory {
+    background-color: #7F5AF0;
+    width: 115%;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.modalStars {
+    margin-top: -20px;
+}
+
+.containerItens {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.containerItens li {
+    list-style: none;
+    margin: 5px;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+.itemCard {
+    background-color: #fff;
+    color: #7F5AF0;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.itemCard img {
+    width: 50px;
+    height: 80px;
+}
+
+.modalChar img {
+    width: 90px;
+}
+
+.buttomVic button {
+    padding: 10px 30px;
+    background-color: #7F5AF0;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+
+.buttomVic button:hover {
+    padding: 10px 35px;
+    background-color: #7F5AF0;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: 0.3s;
+    border: none;
+    border-radius: 20px;
+}
+
+.backtomenu {
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.titleModal h1 {
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 600px) {
+    .modal {
+        width: 100vw;
+        height: 100vh;
+        background: #2CB67D;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+        animation: animate;
+        animation-duration: 800ms;
+        border-radius: 0px;
+        padding: 40px;
+    }
+
+    .titleModal h1 {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+
+    .modalChar img {
+        width: 130px;
+    }
+    .buttomVic button {
+        padding: 10px 30px;
+        background-color: #7F5AF0;
+        color: #fff;
+        font-weight: bold;
+        margin-top: 40px;
+        border: none;
+        border-radius: 20px;
+    }
+    
+}

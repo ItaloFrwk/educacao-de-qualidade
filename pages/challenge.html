@@ -7,6 +7,7 @@
     <title>TOTE - Challenge</title>
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/challenge.css" />
+    <link rel="stylesheet" href="../css/modalVictory.css">
   </head>
   <body>
     <header>
@@ -92,11 +93,75 @@
         </div>
       </div>
     </div>
+
+    
+
+      <!-- footer -->
     <div class="footer">
       <button class="button-home" type="button">
         <a href="../pages/dashboard.html"><img src="../img/home Icon.png" alt="Home" /></a>
       </button>
-      <button class="button-send" type="button">Enviar</button>
-  
+      <a onclick="abrir()" ><button class="button-send" type="button">Enviar</button></a>
+
+
+      <!-- MODAL -->
+      <div class="modal">
+        <div class="modal-container">
+            <div class="profile-about">
+              <div class="titleModal">
+                <h1>PARABÉNS</h1>
+              </div>
+              <div class="containerVictory">
+                <div class="modalStars">
+                   <img src="../img/stars.svg" alt="" srcset="">
+                </div>
+                <div class="modalChar">
+                  <img src="../img/charFeliz.png" alt="" srcset="">
+                </div>
+                <div id="exp-bar">
+                  <span class="gotten"></span>
+                  <span class="gotten"></span>
+                  <span class="gotten"></span>
+                  <span class="gotten"></span>
+                  <span class="gotten"></span>
+                  <span class="gotten"></span>
+                  <span class="gotten"></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  
+                </div>
+                <p>+45 XP</p>
+                
+                <div>
+                  <h2>ITENS CONQUISTADOS</h2>
+                  <ul class="containerItens">
+                    <li class="itemCard"> 
+                      <img src="../img/espada.png">
+                      <p>Espada <br>de Bhaskara</p>
+                    </li>
+                    <li class="itemCard"> 
+                      <img src="../img/espada.png">
+                      <p>Espada <br>de Bhaskara</p>
+                    </li>
+                    <li class="itemCard"> 
+                      <img src="../img/espada.png">
+                      <p>Espada <br>de Bhaskara</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <a class="buttomVic"><button>CONTINUE</button></a>
+              <a class="backtomenu">VOLTAR AO MENU</a>
+            
+            </div>
+        </div>
+
+        <div>
+            <a onclick="fechar()" class="fechar" href=""><img src="../img/Buttom Close.png" alt=""></a>
+        </div>
+    </div>
+
+    <script src="../js/modal.js"></script>
   </body>
 </html>
