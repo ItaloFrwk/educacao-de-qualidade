@@ -112,6 +112,12 @@
     height: 80px;
 }
 
+.medalhas img:hover{
+    width: 90px;
+    height: 90px;
+    transition: 0.3s;
+}
+
 
 .sobre , .perfil{
     display: flex;
@@ -151,6 +157,15 @@ hr {
     margin: auto;
     display: block;
     width: 120px;
+    padding-top: 10px;
+}
+
+.avatar img:hover{
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    width: 130px;
     padding-top: 10px;
 }
 

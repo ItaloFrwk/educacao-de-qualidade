@@ -24,6 +24,14 @@
     max-height: 70px;
 }
 
+
+.buttomR img:hover{
+    max-width: 80px;
+    margin-top: 10px;
+    max-height: 80px;
+    transition: 0.5s;
+}
+
 .buttomE img {
     visibility: hidden;
 }
@@ -249,11 +257,11 @@ h1 {
         position: absolute;
         top: 0;
         margin-top: -590px;
-        margin-left: 10px;
+        margin-left: 10px;  
     }
 
     .buttonsRight {
-        margin-top: 100px;
+        margin-top: 130px;
         width: 100vw;
         display: flex;
         justify-content: center;
